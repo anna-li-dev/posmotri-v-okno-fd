@@ -261,6 +261,7 @@ ol {
   flex-direction: column;
   flex-grow: 1;
   gap: 6px;
+  max-width: 196px;
 }
 
 .title {
@@ -290,6 +291,7 @@ ol {
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
+  text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
 }
